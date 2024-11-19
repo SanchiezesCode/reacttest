@@ -1,0 +1,304 @@
+/* @import url('https://fonts.cdnfonts.com/css/montserrat'); */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header__inner, .container-fluid {
+    padding: 0 15px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+
+    background-color: #0C0537;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+
+    font-weight: 500;
+    line-height: 17.07px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    align-items: center;
+    padding-right: 9px;
+
+}
+
+.header__logo-image {
+    width: 75px;
+    padding-right: 115px;
+}
+
+.header__email {
+    padding-right: 12px;
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: 214px;
+    height: 44px;
+    padding: 0;
+    
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px; 
+
+    color: #fff;
+    font-weight: 700;
+}
+
+.header__extra {
+    padding-right: 19px;
+}
+
+.header__menu-item--active {
+    font-weight: 700;
+}
+
+ul.header__menu > li:last-child {
+    color: #FFC94F;
+    font-weight: 700;
+}
+
+.header__burger {
+    display: none;
+    fill: #FFC94F;
+}
+
+@media(max-width: 1160px) {
+    .header__menu, .header__extra, .header__email, .header__phone {
+        display: none;
+    }
+
+    .header__inner {
+        justify-content: space-between;
+    }
+
+    .header__burger {
+        display: unset; 
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header__inner {
+    display: flex;
+    background-color: #0C0537;
+    height: 70px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    padding-right: 85px;
+    padding-left: 25px;
+}
+.header__logo-image {
+    width: 75px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 7px;
+
+}
+
+.header__menu-item--yellow {
+    color: #FFC94F;
+}
+
+.header__menu-item--w700 {
+    font-weight: 700;
+    
+}
+
+.header__menu-item-url {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__menu-item-url--circle {
+    padding: 4px 6px;
+    margin-left: 9px;
+    background-color: #FFC94F;
+    border-radius: 50%;
+    color: #535353;
+}
+
+.header__menu-item-url--active {
+    font-weight: 700;
+}
+
+
+.header__menu__contacts {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 25px;
+    
+
+}
+
+.header__menu__contacts-email {
+    padding-right: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__menu__contacts-email--image {
+    padding-right: 8px;
+    margin-bottom: -3px;
+    margin-top: 5px;
+}
+
+.header__menu__contacts-button {
+    width: 214px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+.header__menu__contacts__button--image {
+    padding-right: 12px;
+}
+
+.header__menu__burger {
+    display: none;
+    padding-right: 15px;
+    color: #FFC94F;
+}
+
+.header__menu__burger svg path {
+
+    fill: #FFC94F;
+
+}
+
+@media(max-width: 1245px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo {
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 520px) {
+    .header__menu__contacts-email {
+        display: none;
+    }
+}
+
+@media(max-width: 385px) {
+    .header__menu__contacts {
+        display: none;
+    }
+
+    .header__menu__burger {
+        display: block;
+    }
+
+    .header__logo {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    
+    .header__inner {
+        justify-content: space-between;
+    }
+
+    
+}
+
+@media(max-width:320px) {
+    .header__inner, .container-fluid {
+        padding: 0 15px;     
+    }
+
+} */
